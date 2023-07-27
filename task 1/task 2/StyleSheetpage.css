@@ -1,0 +1,78 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+#title {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 4vw;
+    font-family: "Times New Roman", serif;
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#caption {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+div#tribute-data {
+    background-color: rgba(46, 139, 87, 0.25);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Georgia", serif;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+h2.title-THE CAPTAIN {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family: "Courier New", monospace;
+}
+
+h2.title-CAREER {
+    font-size: 35px;
+    color: #d62b2b;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family: "Courier New", monospace;
+}
+
+h2.title-ACHIEVEMENTS {
+    font-size: 35px;
+    color: #185ee0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family: "Courier New", monospace;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #3498db;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
